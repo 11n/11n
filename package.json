@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "precommit": "npm t",
+    "lint:js": "eslint **/*.js",
     "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/11n/11n#readme",
   "devDependencies": {
+    "eslint": "^3.19.0",
     "husky": "^0.13.3",
     "node-sass": "^4.5.2",
     "sass-lint": "^1.10.2"
