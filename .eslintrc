@@ -5,6 +5,11 @@
     "es6": true
   },
 
+  "globals": {
+    "test",
+    "expect"
+  },
+
   "parserOptions": {
     "sourceType": "module"
   },
