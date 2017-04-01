@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "precommit": "npm t",
+    "predocs": "rimraf docs",
+    "docs": "jsdoc -t 11n -c jsdoc.json -R README.md -r",
     "coverage": "cat ./coverage/lcov.info | codecov",
-    "lint:js": "eslint **/*.js",
+    "lint:js": "eslint src/**/*.js",
     "lint:scss": "sass-lint --config .scss-lint.yml --verbose --no-exit",
     "pretest": "npm run lint:js && npm run lint:scss",
     "test": "jest --coverage"
@@ -34,7 +36,9 @@
     "eslint": "^3.19.0",
     "husky": "^0.13.3",
     "jest": "^19.0.2",
+    "jsdoc": "^3.4.3",
     "node-sass": "^4.5.2",
+    "rimraf": "^2.6.1",
     "sass-lint": "^1.10.2"
   },
   "jest": {

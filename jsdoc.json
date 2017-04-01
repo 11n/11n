@@ -1,0 +1,36 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [ "jsdoc", "closure" ]
+  },
+  "source": {
+    "include": [ "src" ],
+    "exclude": [ "tests", "node_modules" ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "applicationName": "11n",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+      "title": "The world most beautiful motion design front-end framework.",
+      "type": "website",
+      "image": "",
+      "site_name": "",
+      "url": ""
+    },
+    "meta": {
+      "title": "11n",
+      "description": "The world most beautiful motion design front-end framework.",
+      "keyword": "11n, Frontend, Framework"
+    },
+    "linenums": true
+  },
+  "opts": {
+    "destination": "docs"
+  }
+}
