@@ -1,5 +1,1 @@
-function sayHello (name) {
-  return name + ' says hello';
-}
-
-module.exports = sayHello;
+export default name => `${name} says hello`;
