@@ -4,6 +4,7 @@
   "description": "The world most beautiful motion design front-end framework.",
   "main": "index.js",
   "scripts": {
+    "precommit": "npm t",
     "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/11n/11n#readme",
   "devDependencies": {
+    "husky": "^0.13.3",
     "node-sass": "^4.5.2",
     "sass-lint": "^1.10.2"
   }
