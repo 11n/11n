@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/11n/11n#readme",
   "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.19.0",
     "husky": "^0.13.3",
     "node-sass": "^4.5.2",
