@@ -6,7 +6,9 @@
   "scripts": {
     "precommit": "npm t",
     "predocs": "rimraf docs",
-    "docs": "jsdoc -t 11n -c jsdoc.json -R README.md -r",
+    "docs:scripts": "jsdoc -t 11n -c jsdoc.json -R README.md -r",
+    "docs:styles": "sassdoc src/",
+    "docs": "npm run docs:scripts && npm run docs:styles",
     "coverage": "cat ./coverage/lcov.info | codecov",
     "lint:js": "eslint src/**/*.js",
     "lint:scss": "sass-lint --config .scss-lint.yml --verbose --no-exit",
@@ -39,7 +41,9 @@
     "jsdoc": "^3.4.3",
     "node-sass": "^4.5.2",
     "rimraf": "^2.6.1",
-    "sass-lint": "^1.10.2"
+    "sass-lint": "^1.10.2",
+    "sassdoc": "^2.2.2",
+    "sassdoc-theme-neat": "0.0.2"
   },
   "jest": {
     "verbose": true

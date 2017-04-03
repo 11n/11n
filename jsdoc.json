@@ -31,6 +31,6 @@
     "linenums": true
   },
   "opts": {
-    "destination": "docs"
+    "destination": "docs/scripts"
   }
 }

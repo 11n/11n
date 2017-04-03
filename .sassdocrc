@@ -1,0 +1,15 @@
+basePath: "https://github.com/11n/11n"
+dest: "docs/styles"
+display:
+  access: ["private", "public"]
+  alias: true
+  watermark: true
+package:
+  title: "11n Docs"
+  name: "11n-docs"
+  version: "0.1.0"
+  license: "MIT"
+  homepage: "https://11n.rocks"
+theme: "neat"
+groups:
+  undefined: Ungrouped
