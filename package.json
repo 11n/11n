@@ -1,5 +1,5 @@
 {
-  "name": "11n",
+  "name": "hethe",
   "version": "1.0.0",
   "description": "The world most beautiful motion design front-end framework.",
   "main": "index.js",
@@ -17,19 +17,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/11n/11n.git"
+    "url": "git+https://github.com/denoir/hethe.git"
   },
   "keywords": [
-    "11n",
+    "hethe",
     "frontend",
-    "framework"
+    "framework",
+    "motion design",
+    "components",
+    "human readable"
   ],
-  "author": "rogues <@ro9ues>",
+  "author": "Yair <@agzeri>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/11n/11n/issues"
+    "url": "https://github.com/denoir/hethe/issues"
   },
-  "homepage": "https://github.com/11n/11n#readme",
+  "homepage": "https://github.com/denoir/hethe#readme",
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-jest": "^19.0.0",
