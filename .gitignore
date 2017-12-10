@@ -13,3 +13,7 @@ docs/
 # Dependency directory #
 ########################
 node_modules/
+
+# Production Folders #
+######################
+dist/
